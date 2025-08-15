@@ -1,0 +1,70 @@
+.home {
+  background-image: url('/img/tela-de-fundo.jpg'); /* se estiver no public */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding: 50px 20px;
+  height: 750px;
+  
+
+}
+
+.home-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 100px ;
+}
+
+.home-content {
+
+  flex: 1;
+  color: white;
+}
+
+.home-content h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 1.2rem;
+  color: #1A7EA0;
+}
+
+
+.home-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  object-position: top;
+  clip-path: circle(50%);
+  box-shadow: 8px 8px 8px rgb(255, 255, 255);
+  animation: flutuar 5s ease-in-out infinite;
+}
+
+@keyframes flutuar {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-15px);
+  }
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .home-container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .home-image img {
+    width: 200px;
+    height: 200px;
+  }
+}

@@ -1,16 +1,15 @@
-import { useState } from 'react'
+import Header from './pages/Header/Header.jsx'
+import Home from './pages/Home/home.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
 
-  return (<>
-  <h1>My Portfolio</h1>
-  <p>Welcome to my portfolio website!</p>
-  <p>Current count: {count}</p>
-  <button onClick={() => setCount(count + 1)}>Increment</button>
-  </>
-    
+
+  return (
+    <>
+      <Header/>
+      <Home/>
+    </>
   )
 }
 
