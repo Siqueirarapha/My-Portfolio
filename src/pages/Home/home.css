@@ -17,7 +17,7 @@
   justify-content: space-between;
   gap: 40px;
   flex-wrap: wrap;
-  padding: 100px ;
+  padding: 100px 0;
 }
 
 .home-content {
@@ -29,11 +29,17 @@
 .home-content h1 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  font-weight: 600;
+  font-style: bold;
 }
 
 .home-content p {
   font-size: 1.2rem;
-  color: #1A7EA0;
+  color: #1d8db3;
+  font-weight: 600;
+  font-style: bold;
+  text-decoration: underline;
+
 }
 
 
@@ -60,11 +66,32 @@
 @media (max-width: 768px) {
   .home-container {
     flex-direction: column;
-    text-align: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .home {
+    padding: 75px 0 0 0;
   }
 
   .home-image img {
     width: 200px;
     height: 200px;
   }
+  .home-content {
+    justify-content: center;
+    color: white;
+    width: 250px;
+  }
+
+.home-content h1 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.home-content p {
+  font-size: 1rem;
+  color: #1A7EA0;
+}
+
+
 }
