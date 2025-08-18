@@ -1,11 +1,8 @@
 .home {
-  background-image: url('/img/tela-de-fundo.jpg'); /* se estiver no public */
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-  padding: 50px 20px;
-  height: 750px;
-  
+  padding: 100px;
 
 }
 
@@ -14,7 +11,7 @@
   margin: 0 auto;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   gap: 40px;
   flex-wrap: wrap;
   padding: 100px 0;
@@ -24,6 +21,8 @@
 
   flex: 1;
   color: white;
+  margin: auto;
+  justify-items: center;
 }
 
 .home-content h1 {
@@ -31,6 +30,9 @@
   margin-bottom: 10px;
   font-weight: 600;
   font-style: bold;
+  max-width: 400px;
+  
+
 }
 
 .home-content p {
@@ -39,7 +41,8 @@
   font-weight: 600;
   font-style: bold;
   text-decoration: underline;
-
+ 
+  
 }
 
 
@@ -85,12 +88,15 @@
 
 .home-content h1 {
   font-size: 2rem;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
+  width: 300px;
+  text-align: center;
 }
 
 .home-content p {
   font-size: 1rem;
-  color: #1A7EA0;
+  color: #1d8db3;
+  margin-bottom: 50px;
 }
 
 

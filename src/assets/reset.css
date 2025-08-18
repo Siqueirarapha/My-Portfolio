@@ -29,4 +29,11 @@ html, body {
   height: 100%;
   font-family: sans-serif;
 }
+body {
+  background-image: url(../../public/img/tela-de-fundo.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+}
 
