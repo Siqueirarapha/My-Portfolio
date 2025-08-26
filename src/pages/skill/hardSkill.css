@@ -1,0 +1,99 @@
+#hard-skill-separado {
+  background-color: #00000077;
+border-top: 1px solid #ffffff6e;
+}
+
+.skill-container {
+  max-width: 1280px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 100px 0;
+  
+}
+
+.skill-title {
+  color: #1A7EA0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-decoration: underline;
+  font-size: 2.5rem;
+  padding: 10px 0;
+  width: 100%;
+  font-weight: 600;
+  display: block;   
+  margin: 0 auto 30px auto;
+  text-align: center;
+  font-family: 'montserrat', sans-serif;
+    background-color: #0000006c;
+    border-radius: 25px;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 80%);
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.582);
+}
+.skill-container2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1A7EA0;
+  box-shadow: 0 4px 8px rgba(255, 255, 255, 0.582);
+  padding: 50px;
+  border-radius: 50px;
+}
+.skill-list {
+  
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  max-width: 50%;
+
+}
+
+.skill-item {
+  width: 120px;
+  height: 120px;
+  background: #1e1e1e;
+  border-radius:50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.4);
+}
+
+.skill-item:hover {
+  background: #2e2e2e;
+  transform: translateY(-6px);
+  box-shadow: 0px 6px 12px rgba(0,0,0,0.6);
+}
+
+.skill-item img {
+  width: 70px;
+  height: 70px;
+}
+
+.explination-hardskill{
+     background-color: #125a72;
+     color: white;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+     border-left: 5px solid #0d3b4c;
+     width: 90%;
+     text-align: center;
+     line-height: 1.5;
+     
+}
+
+.explination-hardskill h3{
+   margin-bottom: 10px;
+  font-size: 20px;
+  color: #fff;
+  list-style: inside;
+}
