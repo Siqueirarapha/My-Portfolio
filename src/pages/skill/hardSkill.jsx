@@ -57,7 +57,7 @@ function HardSkill() {
 
 
   return (
-    <section id="hard-skill-separado">
+    <section id="hard-skill-separado" id="skills">
     <div className="c-skill">
       <div className="skill-container">
         <div className="skill-title">

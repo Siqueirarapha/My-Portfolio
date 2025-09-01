@@ -59,13 +59,13 @@
   border-radius: 0 0 25px 25px;
   box-shadow: 0 4px 6px rgba(0,0,0,0.1);
   transition: all 0.3s ease-in-out;
-  overflow: hidden; /* evita que algo transborde */
-  transition: all 0.3s ease-in-out; /* suaviza transform e sombra */
+  overflow: hidden; 
+  transition: all 0.3s ease-in-out; 
 
 }
 .card a:hover {
-  transform: translateY(-5px) scale(1.05); /* sobe e aumenta */
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* sombra mais natural */
+  transform: translateY(-5px) scale(1.05); 
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
 
 .card h2 {
@@ -88,7 +88,7 @@
   padding: 10px;
   margin: 0;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  flex-grow: 1; /* ocupa o espaço sobrando */
+  flex-grow: 1;
 }
 
 .hard-skill {
@@ -108,6 +108,7 @@
     flex-direction: column;
     align-items: center;
     padding: 50px 20px;
+    
   }
   .project-title{
     font-size: 2rem;
@@ -117,15 +118,15 @@
     background-image: radial-gradient(circle, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 80%);
   }
   .cards {
-    flex-direction: column; /* cards em coluna */
+    flex-direction: column; 
     padding: 30px 15px;
     gap: 25px;
     border-radius: 25px;
   }
 
   .card a {
-    max-width: 100%; /* ocupa largura total */
-    min-height: auto; /* deixa a altura crescer com o conteúdo */
+    max-width: 100%; 
+    min-height: auto; 
   }
 
   .card h2 {

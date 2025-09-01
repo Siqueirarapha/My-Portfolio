@@ -3,6 +3,7 @@ import Home from './pages/Home/home.jsx'
 import About from './pages/about/about.jsx'
 import Project from './pages/project/project.jsx'
 import HardSkill from './pages/skill/hardSkill.jsx'
+import Footer from './pages/footer/footer.jsx'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About/>
       <Project/>
       <HardSkill/>
+      <Footer/>
     </>
   )
 }

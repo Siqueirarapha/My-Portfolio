@@ -97,3 +97,40 @@ border-top: 1px solid #ffffff6e;
   color: #fff;
   list-style: inside;
 }
+
+
+
+
+
+@media (max-width: 768px) {
+  .skill-container2 {
+    flex-direction: column;
+    padding: 50px 20px;
+    align-items: center;
+    margin: 15px;
+  }
+
+.skill-title{
+    margin: auto;
+    font-size: 2rem;
+    padding: 20px 0;  
+    background-color: #0000006c;
+    border-radius: 50px;
+    background-image: radial-gradient(circle, rgba(0,0,0,0.8) 40%, rgba(0,0,0,0) 80%);
+  }
+
+  .skill-list {
+    max-width: 100%;
+    gap: 20px;
+  }
+
+  .skill-item {
+    width: 80px;
+    height: 80px;
+  }
+
+  .skill-item img {
+    width: 60px;
+    height: 60px;
+  }
+}
